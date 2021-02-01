@@ -1,0 +1,605 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'Maven Pro', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Oswald', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Oswald', sans-serif;
+
+}
+a, a:hover{
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* Header Section start */
+
+.header-section{
+    width: 100%;
+    padding: 20px 80px;
+    background: #000000;
+}
+
+.nav-item{
+    width: 100%;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color:#fff !important;
+    margin: 0px;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 20px #ff7a21;
+    background: url(../images/line.png) center bottom no-repeat;
+    background-size:  auto;
+}
+.navbar-light .navbar-nav .nav-link.active:hover{
+    color:#ff7a21 !important;
+}
+.navbar-light .navbar-nav .nav-item .nav-link{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0px 05px;
+    border: 1px solid #07070f;
+    padding: 0px 20px;
+    border-radius: 100%;
+    transition: .1s;
+}
+.navbar-light .navbar-nav .nav-item .nav-link:hover{
+    color: #ff7a21;
+    border-radius: 50%;
+    padding: 10px 20px;
+    text-shadow: 0px 0px 20px #ff7a21;
+    filter: opacity(.5px);
+    background: url(../images/line.png) center bottom no-repeat;
+    background-size:  auto;
+
+}
+/*Header Section end */
+
+/* Banner Section start */
+
+.banner{
+    width: 100%;
+    padding: 150px 80px 210px;
+    background: url(../images/upperbase.png)center top no-repeat;
+    background-size: cover;
+}
+.inner-banner h1 {
+    color: #fff;
+    font-size: 67px;
+    line-height: 84px;
+    font-weight: 600;
+}
+.banner .inner-button{
+    width: 100%;
+    padding-bottom: 80px;
+}
+.banner .inner-button .btn-primary{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid #000000;
+    padding: 10px 20px;
+    background:#ff7a21 ;
+    background: url(../images/bimg.png) center top no-repeat;
+    background-size: cover;
+}    
+
+.banner .inner-button .btn-primary:hover{
+    color: #000;
+    border: 1px solid#ff7a21;
+    padding: 10px 20px;
+    background:#ff7a21  ;       
+}
+
+/*Banner Section end   */
+
+/*Latest Games start  */
+.games{
+    width: 100%;
+    padding: 50px 80px 0px;
+    background: url(../images/bg.png) center top no-repeat;
+    background-size: cover;
+}
+.inner-top{
+    background: url(../images/line.png)center bottom no-repeat;
+    background-size: auto;
+    
+}
+.inner-top h1{
+    color: #fff;
+    font-size: 42px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 10px;
+    
+
+}
+.card {  
+    background-color: #07070f !important;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    padding: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.card-body {
+    padding: 30px 0px !important;
+}
+.card .card-img-top{
+    width: 100%;
+}
+.card-body h4{
+    color:#686a7d;
+    font-size: 14px;
+    font-weight: 600;
+}
+.card-body h5{
+    color:#fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.card-body .card-text{
+    color:#686a7d;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.card-body ul{
+    padding-left: 0rem !important;
+}
+.card-body li{
+    list-style: none;
+    display: inline-block;
+    color:#686a7d ;
+}
+.card-body ul li .fa {
+    margin-right: 24px;
+}
+.fa-calendar:before {
+    content: "\f073";
+    margin-right: 5px;
+}
+.fa-gamepad:before {
+    content: "\f11b";
+    margin-right: 5px;
+}
+.card-body .inner-button .btn-primary {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid #000000;
+    padding: 10px 20px;
+    background: url(../images/bimg.png) center top no-repeat;
+    background-size: cover;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.card-body  .inner-button .btn-primary:hover{
+    color: #000;
+    border: 1px solid#ff7a21;
+    padding: 10px 20px;
+    background:#ff7a21;       
+}
+/* Player review section start  */
+
+.games .inner-player {
+    width: 100%;
+    padding: 100px 0px;
+    background: url(../images/bbbbbbb.png) center top no-repeat;
+    background-size: cover;
+}
+.games .inner-player .btn-info {
+    padding: 10px 20px;
+    background: #ff7a21;
+    border: 1px solid #ff7a21 !important;
+    margin-left: 485px;
+    transition: 1s;
+}
+.games .inner-player .btn-info .fa{
+    color: #fff;
+}
+.games .inner-player .btn-info:hover{
+    background: transparent;
+    border: 1px solid #ff7a21 !important;
+   
+}
+.inner-player h1 {
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 52px;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+/*Player review section end  */
+
+/* Feature section start  */
+.inner-top h1 {
+    color: #fff;
+    font-size: 42px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.feature .card-body {
+    padding-top: 130px !important;
+}
+
+.feature .card-body h5{
+    color:#fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.feature .card-body h5 img {
+    margin-left: 116px;
+}
+.feature .card .special {
+    width: 100%;
+    padding: 30px;
+}
+.feature .card-body .inner-button .btn-primary {
+    margin-left: 0px;
+    margin-top: 0px;
+}
+/* Feature section end  */
+
+/*Our team section start */
+.our-team{
+    width: 100%;
+    padding: 100px 0px;
+    background: url(../images/bbbbbbb.png) center top no-repeat;
+    background-size: cover;
+}
+.our-team .owl-carousel .item h4 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    text-align: center;
+}
+.our-team .owl-carousel .item p{
+    color: #686a7d;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+.our-team .owl-carousel .item ul{
+    padding-left: 0px !important;
+    text-align: center;
+
+}
+.our-team .owl-carousel .item ul li{
+    list-style:none ;
+    display: inline-block;
+}
+.our-team .owl-carousel .item ul li .fa{
+    color:#fff;
+    font-size: 14px;
+    
+    padding: 7px;
+    transition: .5s;
+    border: 1px solid #000000;
+    border-radius: 50%;
+}
+.our-team .owl-carousel .item ul li .fa:hover{
+    color: #ff7a21;
+    text-shadow: 0px 0px 20px #ff7a21;
+    border: 1px solid#ff7a21;
+    background: url(../images/line.png) center bottom no-repeat;
+    background-size:  auto;
+
+}
+
+/* Our team section end  */
+
+/* Blog section start   */
+
+.blog{
+    width: 100%;
+    padding: 80px 0px;
+}
+.blog .card-body .btn-primary{
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.blog .card-body h5 {
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding-top: 21px;
+    padding-left: 8px;
+}
+
+.blog .card{
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+}
+
+/*  Blog section end */
+
+/*footer section start  */
+.footer{
+    width: 100%;
+    padding: 50px 30px 0px;
+    background: url(../images/bbbbbbb.png) center top no-repeat;
+    background-size: cover;
+}
+.footer .about-us h5{
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding: 10px;
+}
+.footer .about-us p{
+    color: #686a7d;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+
+}
+.about-us .form-control{
+    background: #000 !important;
+    color: #fff !important;
+    
+}
+.about-us .form-control {
+    background: #000 !important;
+    color: #fff !important;
+    border: 1px solid #000;
+}
+.about-us .btn {
+    background: #000;
+}
+.about-us .fa:hover{
+    color: #fff;
+}
+.about-us .fa{
+    color: #ff7a21;
+    font-size: 14px;
+}
+.about-us ul li{
+    color: #686a7d;
+    font-size: 14px;
+    padding: 7px;
+}
+.about-us ul li::marker {
+    color: #ff7a21;
+}
+.about-us ul li:hover{
+    text-shadow: 0px 0px 20px #ff7a21;
+    color: #fff;
+    cursor: pointer;
+}
+.about-us .inner-about p{
+    color: #686a7d;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+
+}
+.about-us .inner-about h5{
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding: 0px;
+}
+.footer .bottom-footer {
+    width: 100%;
+    padding: 20px 60px 0px;
+    background: url(../images/btf.png) center top no-repeat;
+    background-size: cover;
+}
+/* Footer section end */
+
+/* bottom-footer section start */
+.inner-bottom-footer{
+    width: 100%;
+}
+.inner-bottom-footer h5 {
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding: 10px;
+}
+.right-bottom {
+    width: 100%;
+    text-align: right;
+}
+.right-bottom ul li{
+    list-style: none;
+    display: inline-block;
+
+}
+.right-bottom ul li .fa{
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid#0000;
+    border-radius: 50%;
+    padding: 10px;
+    transition: .5s;
+}
+.right-bottom ul li .fa:hover{
+    color: #ff7a21;
+    text-shadow: 0px 0px 20px #ff7a21;
+    
+    background: url(../images/line.png) center bottom no-repeat;
+    background-size:  auto;
+}
+/* Bottom footer section end */
+
+/* Latest Games end */
+
+
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    
+    .banner {
+        width: 100%;
+        padding: 32px 10px 210px;
+        background: url(../images/upperbase.png)center top no-repeat;
+        background-size: cover;
+    }
+    .games {
+        width: 100%;
+        padding: 50px 10px 0px;
+        background: url(../images/bg.png) center top no-repeat;
+        background-size: cover;
+    }
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+        margin-left: 36px;
+    }
+    .inner-banner h1 {
+        color: #fff;
+        font-size: 50px;
+        line-height: 70px;
+        font-weight: 600;
+    }
+    .card-body .inner-button .btn-primary {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 600;
+        border: 1px solid #000000;
+        padding: 10px 20px;
+        background: url(../images/bimg.png) center top no-repeat;
+        background-size: cover;
+        margin-left: 84px;
+        margin-top: 25px;
+    }
+    .games .inner-player .btn-info {
+        padding: 10px 20px;
+        background: #ff7a21;
+        border: 1px solid #ff7a21 !important;
+        margin-left: 130px;
+        transition: 1s;
+    }
+    .inner-player h1 {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 25px;
+        color: #fff;
+        text-align: center;
+        margin-top: 30px;
+        text-transform: uppercase;
+    }
+    .inner-top h1 {
+        color: #fff;
+        font-size: 30px;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .special .img-fluid {
+        max-width: 130%;
+        height: auto;
+        margin-left: -35px;
+    }
+    .feature .card-body {
+        padding-top: 0px !important;
+    }
+    .feature .card-body h5 img {
+        margin-left: 0px;
+    }
+    .card-body .card-text {
+        color: #686a7d;
+        font-size: 14px;
+        line-height: 17px;
+        font-weight: 400;
+    }
+    .feature .card-body .inner-button .btn-primary {
+        margin-left: 84px;
+        margin-top: 25px;
+    }
+    .owl-carousel .owl-item img {
+        display: block;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .footer .bottom-footer {
+        width: 100%;
+        padding: 28px 0px 0px;
+        background: url(../images/btf.png) center top no-repeat;
+        background-size: cover;
+    }
+    .right-bottom ul li .fa {
+        color: #fff;
+        font-size: 12px;
+        border: 1px solid#0000;
+        border-radius: 50%;
+        padding: 10px;
+        transition: .5s;
+        margin-right: 20px;
+    }
+  }
